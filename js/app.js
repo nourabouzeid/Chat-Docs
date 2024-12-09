@@ -449,14 +449,10 @@
                 },
                 "x-parser-schema-id": "<anonymous-schema-67>"
               },
-              "removerUserName": {
-                "type": "string",
-                "x-parser-schema-id": "<anonymous-schema-70>"
-              },
               "chatId": {
                 "type": "integer",
                 "description": "identifier for group/channel",
-                "x-parser-schema-id": "<anonymous-schema-71>"
+                "x-parser-schema-id": "<anonymous-schema-70>"
               }
             },
             "x-parser-schema-id": "<anonymous-schema-66>"
@@ -516,10 +512,10 @@
               "chatId": {
                 "type": "integer",
                 "description": "Identifier of the chat room",
-                "x-parser-schema-id": "<anonymous-schema-78>"
+                "x-parser-schema-id": "<anonymous-schema-77>"
               }
             },
-            "x-parser-schema-id": "<anonymous-schema-77>"
+            "x-parser-schema-id": "<anonymous-schema-76>"
           },
           "x-parser-message-name": "<anonymous-message-15>"
         }
@@ -535,25 +531,25 @@
               "chatId": {
                 "type": "integer",
                 "description": "Identifier of the chat room",
-                "x-parser-schema-id": "<anonymous-schema-73>"
+                "x-parser-schema-id": "<anonymous-schema-72>"
               },
               "userId": {
                 "type": "integer",
                 "description": "Identifier of the user",
-                "x-parser-schema-id": "<anonymous-schema-74>"
+                "x-parser-schema-id": "<anonymous-schema-73>"
               },
               "userName": {
                 "type": "string",
                 "description": "Name of the user",
-                "x-parser-schema-id": "<anonymous-schema-75>"
+                "x-parser-schema-id": "<anonymous-schema-74>"
               },
               "profilePic": {
                 "type": "string",
                 "description": "Profile picture of the user",
-                "x-parser-schema-id": "<anonymous-schema-76>"
+                "x-parser-schema-id": "<anonymous-schema-75>"
               }
             },
-            "x-parser-schema-id": "<anonymous-schema-72>"
+            "x-parser-schema-id": "<anonymous-schema-71>"
           },
           "x-parser-message-name": "<anonymous-message-14>"
         }
@@ -571,19 +567,19 @@
               "messageId": {
                 "type": "integer",
                 "description": "Identifier of the message",
-                "x-parser-schema-id": "<anonymous-schema-90>"
+                "x-parser-schema-id": "<anonymous-schema-89>"
               },
               "chatId": {
                 "type": "integer",
                 "description": "Identifier of the chat room",
-                "x-parser-schema-id": "<anonymous-schema-91>"
+                "x-parser-schema-id": "<anonymous-schema-90>"
               },
               "content": {
                 "type": "string",
-                "x-parser-schema-id": "<anonymous-schema-92>"
+                "x-parser-schema-id": "<anonymous-schema-91>"
               }
             },
-            "x-parser-schema-id": "<anonymous-schema-89>"
+            "x-parser-schema-id": "<anonymous-schema-88>"
           },
           "x-parser-message-name": "<anonymous-message-17>"
         }
@@ -598,17 +594,17 @@
               "commentId": {
                 "type": "integer",
                 "description": "Identifier of the comment",
-                "x-parser-schema-id": "<anonymous-schema-80>"
+                "x-parser-schema-id": "<anonymous-schema-79>"
               },
               "messageId": {
                 "type": "integer",
                 "description": "Identifier of the message",
-                "x-parser-schema-id": "<anonymous-schema-81>"
+                "x-parser-schema-id": "<anonymous-schema-80>"
               },
               "chatId": {
                 "type": "integer",
                 "description": "Identifier of the chat room",
-                "x-parser-schema-id": "<anonymous-schema-82>"
+                "x-parser-schema-id": "<anonymous-schema-81>"
               },
               "sender": {
                 "type": "object",
@@ -616,32 +612,32 @@
                   "id": {
                     "type": "integer",
                     "description": "Identifier of the user",
-                    "x-parser-schema-id": "<anonymous-schema-84>"
+                    "x-parser-schema-id": "<anonymous-schema-83>"
                   },
                   "userName": {
                     "type": "string",
                     "description": "Name of the user",
-                    "x-parser-schema-id": "<anonymous-schema-85>"
+                    "x-parser-schema-id": "<anonymous-schema-84>"
                   },
                   "profilePic": {
                     "type": "string",
                     "description": "Profile picture of the user",
-                    "x-parser-schema-id": "<anonymous-schema-86>"
+                    "x-parser-schema-id": "<anonymous-schema-85>"
                   }
                 },
-                "x-parser-schema-id": "<anonymous-schema-83>"
+                "x-parser-schema-id": "<anonymous-schema-82>"
               },
               "time": {
                 "type": "string",
                 "format": "date-time",
-                "x-parser-schema-id": "<anonymous-schema-87>"
+                "x-parser-schema-id": "<anonymous-schema-86>"
               },
               "content": {
                 "type": "string",
-                "x-parser-schema-id": "<anonymous-schema-88>"
+                "x-parser-schema-id": "<anonymous-schema-87>"
               }
             },
-            "x-parser-schema-id": "<anonymous-schema-79>"
+            "x-parser-schema-id": "<anonymous-schema-78>"
           },
           "x-parser-message-name": "<anonymous-message-16>"
         }
